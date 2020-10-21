@@ -7,7 +7,6 @@ public class CalculatingValuesInArrayMulti implements Runnable {
         CalculatingValuesInArrayMulti(float[] arr){
             this.arr = arr;
         }
-
         @Override
         public void run() {
             MainMultithreadingTask.calculatingValuesInArray(arr);
