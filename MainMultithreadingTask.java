@@ -6,7 +6,6 @@ public class MainMultithreadingTask {
 
     public static void main(String[] args) {
 
-
         //Наполняем массив значениями (1 поток)
         TimeMeter timeMeter_1 = new TimeMeter();
         timeMeter_1.timeStart();
